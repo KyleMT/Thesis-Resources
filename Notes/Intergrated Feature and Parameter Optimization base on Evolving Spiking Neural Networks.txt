@@ -1,0 +1,14 @@
+#This file contains notes regarding the 2009 paper by Stefan Schliebs et al.
+Versitile Quantum-inspired Evolutionary Algorithm (vQEA) combined with an evolving spiking neural network (eSNN).
+
+#TODO: Lookup Multi-model Estimation of Distribution Algorithm (EDAs)
+
+Following a wrapper approach. The vQEA was able to perform relevant feature subsetsr and simultaniously evolve an optimal eSNN parameter setting. The extended architecture will be referred to as QiSNN.
+
+The encoding method seems to be vital to the accuracy of all SNN approaches. Several encoding mechanisms have been proposed, such as: frequency mapping, Poison processes, and rank order encoding.
+
+Because the independent probability vectors interact on some level, a multi-modal EDA can be formed. The use of this EDA is the main characteristic of vQEA.
+
+The selection funciton was identified to be a crucial factor in the performance of parameter optimization. In the early phase of optimization, the parameter configurations are selected randomly. As a result, it iis very likely that a setting is selected for which the classifier is unable to respond to any input presented, which corresponds to flat areas of the fitness graph.
+
+Using the classification accuracy on testing samples seemed to work well.
