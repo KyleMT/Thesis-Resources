@@ -1,0 +1,11 @@
+@ARTICLE{5340522, 
+author={Espejo, P.G. and Ventura, S. and Herrera, F.}, 
+journal={Systems, Man, and Cybernetics, Part C: Applications and Reviews, IEEE Transactions on}, title={A Survey on the Application of Genetic Programming to Classification}, 
+year={2010}, 
+month={march }, 
+volume={40}, 
+number={2}, 
+pages={121 -144}, 
+keywords={bankruptcy prediction;credit scoring;data mining;decision trees;evolutionary algorithms;genetic programming;machine learning;medical diagnosis;pattern recognition;software quality assessment;text categorization;data mining;decision trees;genetic algorithms;learning (artificial intelligence);pattern classification;}, 
+doi={10.1109/TSMCC.2009.2033566}, 
+ISSN={1094-6977},}
